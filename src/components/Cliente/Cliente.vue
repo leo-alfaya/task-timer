@@ -1,19 +1,20 @@
 <template>
   <div class="cliente">
     <Sidebar/>
-    <div class="cliente__content">
-    </div>  
+    <ClienteContent/>
   </div>
 </template>
 
 <script>
-import Sidebar from "../common/Sidebar"
+import Sidebar from '../common/Sidebar.vue';
+import ClienteContent from './ClienteContent.vue';
 
 export default {
   name: 'Cliente',
   components: {
     Sidebar,
-  }
+    ClienteContent,
+  },
 };
 </script>
 

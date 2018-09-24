@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import Cliente from './components/Cliente/Cliente';
+import Cliente from './components/Cliente/Cliente.vue';
 
 export default {
   name: 'app',
